@@ -24,6 +24,7 @@ public class Main {
                 case HUMMING_BIRD: animal = new HummingBird(); break;
                 case ZEBRA: animal = new Zebra(); break;
                 case DOLPHIN: animal = new Dolphin(); break;
+                case TIGERR: animal=new Tigerr(); break;
                 default: animal = new Animal();
             }
             animal.setType(type);
